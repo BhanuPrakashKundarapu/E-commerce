@@ -1,4 +1,6 @@
 import express from "express";
+// const express =require("express")
+// const color=require("colors")
 import color from "colors";
 import dotenv from "dotenv";
 import morgan from "morgan";
@@ -7,6 +9,11 @@ import authRoutes from "./routes/authRoute.js";
 import cors from "cors";
 import categoryRoutes from "./routes/categoryRoutes.js"
 import productRoutes from "./routes/productRoutes.js"
+
+// const dotenv=require('dotenv');
+// const morgan=require('morgan');
+// const connectdb =require("./config/db")
+// const 
 // config env
 dotenv.config();
 // database config
